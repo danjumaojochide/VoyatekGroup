@@ -9,21 +9,40 @@
 /* Begin PBXBuildFile section */
 		290C89822CECBF560047824C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C89812CECBF560047824C /* AppDelegate.swift */; };
 		290C89842CECBF560047824C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C89832CECBF560047824C /* SceneDelegate.swift */; };
-		290C89862CECBF560047824C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C89852CECBF560047824C /* ViewController.swift */; };
 		290C89892CECBF560047824C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290C89872CECBF560047824C /* Main.storyboard */; };
 		290C898B2CECBF580047824C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290C898A2CECBF580047824C /* Assets.xcassets */; };
 		290C898E2CECBF580047824C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290C898C2CECBF580047824C /* LaunchScreen.storyboard */; };
+		290C89962CEDC34C0047824C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C89952CEDC34C0047824C /* HomeViewController.swift */; };
+		290C89982CEDD1090047824C /* PlannedTripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C89972CEDD1090047824C /* PlannedTripCell.swift */; };
+		290C89A02CEDE0990047824C /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C899F2CEDE0990047824C /* UIViewExt.swift */; };
+		290C89A42CEDF8AC0047824C /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 290C89A32CEDF8AC0047824C /* FSCalendar */; };
+		290C89A72CEDF9080047824C /* DatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C89A62CEDF9080047824C /* DatePickerController.swift */; };
+		290C89A92CEE0FED0047824C /* CreateTripDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C89A82CEE0FED0047824C /* CreateTripDetailsViewController.swift */; };
+		290C89AC2CEE1DD00047824C /* PaddedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C89AB2CEE1DD00047824C /* PaddedTextField.swift */; };
+		290C89AE2CEE22280047824C /* TripLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C89AD2CEE22280047824C /* TripLocationViewController.swift */; };
+		290C89B02CEE29C20047824C /* AirportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C89AF2CEE29C20047824C /* AirportCell.swift */; };
+		290C89B32CEE2A170047824C /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C89B22CEE2A170047824C /* Airport.swift */; };
+		290C89B52CEE421E0047824C /* TripDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C89B42CEE421E0047824C /* TripDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		290C897E2CECBF560047824C /* VoyatekGroupAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoyatekGroupAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		290C89812CECBF560047824C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		290C89832CECBF560047824C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		290C89852CECBF560047824C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		290C89882CECBF560047824C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		290C898A2CECBF580047824C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		290C898D2CECBF580047824C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		290C898F2CECBF580047824C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290C89952CEDC34C0047824C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		290C89972CEDD1090047824C /* PlannedTripCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannedTripCell.swift; sourceTree = "<group>"; };
+		290C899F2CEDE0990047824C /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		290C89A62CEDF9080047824C /* DatePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerController.swift; sourceTree = "<group>"; };
+		290C89A82CEE0FED0047824C /* CreateTripDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTripDetailsViewController.swift; sourceTree = "<group>"; };
+		290C89AB2CEE1DD00047824C /* PaddedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedTextField.swift; sourceTree = "<group>"; };
+		290C89AD2CEE22280047824C /* TripLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripLocationViewController.swift; sourceTree = "<group>"; };
+		290C89AF2CEE29C20047824C /* AirportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportCell.swift; sourceTree = "<group>"; };
+		290C89B22CEE2A170047824C /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		290C89B42CEE421E0047824C /* TripDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				290C89A42CEDF8AC0047824C /* FSCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,72 @@
 		290C89802CECBF560047824C /* VoyatekGroupAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				290C89A12CEDF2B10047824C /* Core */,
 				290C89812CECBF560047824C /* AppDelegate.swift */,
 				290C89832CECBF560047824C /* SceneDelegate.swift */,
-				290C89852CECBF560047824C /* ViewController.swift */,
-				290C89872CECBF560047824C /* Main.storyboard */,
 				290C898A2CECBF580047824C /* Assets.xcassets */,
 				290C898C2CECBF580047824C /* LaunchScreen.storyboard */,
 				290C898F2CECBF580047824C /* Info.plist */,
 			);
 			path = VoyatekGroupAssessment;
+			sourceTree = "<group>";
+		};
+		290C89992CEDD7710047824C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				290C89AA2CEE1DAD0047824C /* Components */,
+				290C899E2CEDE0870047824C /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		290C899E2CEDE0870047824C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				290C899F2CEDE0990047824C /* UIViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		290C89A12CEDF2B10047824C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				290C89B12CEE2A080047824C /* Models */,
+				290C89A52CEDF8CC0047824C /* Screens */,
+				290C89992CEDD7710047824C /* Helpers */,
+				290C89872CECBF560047824C /* Main.storyboard */,
+				290C89972CEDD1090047824C /* PlannedTripCell.swift */,
+				290C89AF2CEE29C20047824C /* AirportCell.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		290C89A52CEDF8CC0047824C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				290C89952CEDC34C0047824C /* HomeViewController.swift */,
+				290C89A62CEDF9080047824C /* DatePickerController.swift */,
+				290C89A82CEE0FED0047824C /* CreateTripDetailsViewController.swift */,
+				290C89AD2CEE22280047824C /* TripLocationViewController.swift */,
+				290C89B42CEE421E0047824C /* TripDetailsViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		290C89AA2CEE1DAD0047824C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				290C89AB2CEE1DD00047824C /* PaddedTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		290C89B12CEE2A080047824C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				290C89B22CEE2A170047824C /* Airport.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +160,9 @@
 			dependencies = (
 			);
 			name = VoyatekGroupAssessment;
+			packageProductDependencies = (
+				290C89A32CEDF8AC0047824C /* FSCalendar */,
+			);
 			productName = VoyatekGroupAssessment;
 			productReference = 290C897E2CECBF560047824C /* VoyatekGroupAssessment.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +191,9 @@
 				Base,
 			);
 			mainGroup = 290C89752CECBF560047824C;
+			packageReferences = (
+				290C89A22CEDF8AC0047824C /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = 290C897F2CECBF560047824C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +221,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				290C89862CECBF560047824C /* ViewController.swift in Sources */,
+				290C89A92CEE0FED0047824C /* CreateTripDetailsViewController.swift in Sources */,
+				290C89AC2CEE1DD00047824C /* PaddedTextField.swift in Sources */,
+				290C89A02CEDE0990047824C /* UIViewExt.swift in Sources */,
+				290C89B32CEE2A170047824C /* Airport.swift in Sources */,
 				290C89822CECBF560047824C /* AppDelegate.swift in Sources */,
+				290C89982CEDD1090047824C /* PlannedTripCell.swift in Sources */,
+				290C89AE2CEE22280047824C /* TripLocationViewController.swift in Sources */,
+				290C89A72CEDF9080047824C /* DatePickerController.swift in Sources */,
 				290C89842CECBF560047824C /* SceneDelegate.swift in Sources */,
+				290C89B52CEE421E0047824C /* TripDetailsViewController.swift in Sources */,
+				290C89962CEDC34C0047824C /* HomeViewController.swift in Sources */,
+				290C89B02CEE29C20047824C /* AirportCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +455,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		290C89A22CEDF8AC0047824C /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		290C89A32CEDF8AC0047824C /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 290C89A22CEDF8AC0047824C /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 290C89762CECBF560047824C /* Project object */;
 }

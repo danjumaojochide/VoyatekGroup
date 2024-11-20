@@ -1,19 +1,18 @@
 //
-//  ViewController.swift
+//  TripDetailsViewController.swift
 //  VoyatekGroupAssessment
 //
-//  Created by Danjuma Nasiru on 19/11/2024.
+//  Created by Danjuma Nasiru on 20/11/2024.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class TripDetailsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
-
 }
-
